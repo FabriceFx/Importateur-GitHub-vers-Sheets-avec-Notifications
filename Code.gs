@@ -106,7 +106,7 @@ function importerDepotsGitHub() {
  * @param {Array} depots - Liste des objets dépôts identifiés comme nouveaux.
  */
 const envoyerNotificationEmail = (email, utilisateur, depots) => {
-  const objet = `📢 Nouveaux dépôts GitHub détectés pour ${utilisateur}`;
+  const objet = `Nouveaux dépôts GitHub détectés pour ${utilisateur}`;
   
   // Construction du corps HTML
   let corpsHtml = `
